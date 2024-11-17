@@ -1,5 +1,4 @@
 def is_rectangle(grid, N, M):
-    # Check if the shape is a rectangle
     first_hash_positions = []
     last_hash_positions = []
     
@@ -9,13 +8,11 @@ def is_rectangle(grid, N, M):
         last_hash = row.rfind('#')
         
         if first_hash != -1:  # There is at least one '#'
-            # Ensure that the '#' block is contiguous
             if row[first_hash:last_hash + 1] != '#' * (last_hash - first_hash + 1):
                 return False
             first_hash_positions.append(first_hash)
             last_hash_positions.append(last_hash)
     
-    # Ensure that all rows with '#' symbols have the same first and last '#' positions
     if len(set(first_hash_positions)) == 1 and len(set(last_hash_positions)) == 1:
         return True
     return False
@@ -52,7 +49,6 @@ def process_test_case(grid, N, M):
         return "phineas"
     return "Unknown"
 
-# Main function to handle multiple test cases
 if __name__ == "__main__":
     T = int(input())  # Number of test cases
     for _ in range(T):
