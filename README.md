@@ -3,7 +3,7 @@
 This repository contains my solutions to the problems I tackled during the UC Berkeley Coding Competition 2024. The competition was a thrilling experience filled with innovative and challenging problems. Below, you'll find a summary of the problems and the code implementations.
 
 ---
-![UC Berkeley Logo](images/uc_berkeley_logo.png "UC Berkeley Logo")
+![UC Berkeley Logo](Images/eventimg.png "UC Berkeley Logo")
 
 ## Repository Structure  
 
@@ -23,4 +23,15 @@ This repository contains my solutions to the problems I tackled during the UC Be
 │   └── Pics           # For understanding the problem
 └── README.md          # This file
 
+```
 ---
+
+## My Problem Table:
+
+![UC Berkeley Logo](Images/SolvedproblemsView.png "UC Berkeley Logo")
+
+## My Ranking:
+
+![UC Berkeley Logo](Images/Ranking.png "UC Berkeley Logo")
+
+
